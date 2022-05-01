@@ -78,6 +78,132 @@ body {
   color: #f9faf8;
 }
 
+.information {
+  height: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 400px;
+}
+
+.image-holder {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.image {
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.image-subtext {
+  margin-top: 5px;
+  width: 150px;
+  height: 75px;
+  text-align: center;
+}
+
+.quote-container {
+  height: 300px;
+  padding: 25px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  width: 750px;
+  font-size: 34px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author-name {
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 800;
+}
+
+.call-container {
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+  background-color: #3882f6;
+  padding: 40px 120px;
+  border-radius: 7.5px;
+}
+
+.call-left {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.call-header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.call-header, .call-text {
+  color: #e5e7eb;
+}
+
+.call-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+.footer .text {
+    color: #e5e7eb;
+}
+
 a {
   color: #e5e7eb;
 }
